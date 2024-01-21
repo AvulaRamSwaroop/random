@@ -1,0 +1,109 @@
+ .header{
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+ border-bottom-width: 1px;
+ border-bottom-color: gray;
+ border-bottom-style: solid;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ z-index: 200;
+ background-color: white;
+ }
+
+ .leftsection{
+  z-index: 100;
+  align-items: center;
+  width: 200px;
+ 
+  
+ }
+
+ .middlesection{
+  flex: 1;
+  
+  margin-right: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+ 
+ .rightsection{
+  width: 200px;
+  flex-shrink: 0;
+  z-index: 100;
+ }
+
+ .h-menu{
+  height: 24px;
+  margin-top: 15px;
+  margin-left: 25px;
+ 
+ }
+ .y-logo{
+  height: 20px;
+ margin-left: 20px;
+ margin-bottom: 2px;
+ position: fixed;
+ margin-top: 16px;
+ }
+ .search-box{
+  flex: 1;
+  height: 36px;
+  border: 1px solid rgb(176, 174, 174);
+  border-radius: 2px;
+  max-width: 500px;
+  width: 0;
+ }
+ .search-box::placeholder{
+  font-weight: 500;
+  font-family: Roboto,Arial;
+  font-size: 14px;
+  padding-left: 12px;
+  color: rgba(152, 147, 147, 0.764)
+ }
+  .vsicon-disc{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding-right: 20px;
+    border: none;
+  }
+ .search-symbol{
+  height: 24px;
+  width: 24px;
+ }
+ .voice-search-icon{
+  height: 24px;
+  align-items: center;
+ }
+ .search-symbol-disc{
+  width: 60px;
+  height: 39px;
+align-items: center;
+ }
+ .rightsection{
+  z-index: 100;
+ display: flex;
+ padding-right: 20px;
+ padding-left: 40px;
+  justify-content: space-between;
+  align-items: center;}
+ 
+ .mychannel ,.upload,.apps,.notifications{
+  height: 24px;
+  display: inline-block;
+ }
+ .mychannel{
+  border-radius: 50px;
+ }
+ .search-button {
+  
+ }
